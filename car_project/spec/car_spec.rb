@@ -5,9 +5,9 @@ describe 'Car' do
     describe 'attributes' do
 
         it "allows reading and writing for :make" do
-            skip("Debugging a problem")
+            pending("Debugging a problem")
             car = Car.new
-            car.make = 'Test'
+            car.make = 'Tes'
             expect(car.make).to eq('Test')
         end
 
