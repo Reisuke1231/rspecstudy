@@ -1,0 +1,30 @@
+Run Rspec
+$ rspec spec/car_spec.rb
+
+
+Edit .rspec
+=====.rspec
+--format documentation(OR progress)
+--no-profile
+--no-fail-fast
+--order defined
+=====END .rspec
+
+
+Optional runtime arguments
+$ rspec spec/car_spec.rb --color (-c)
+
+$ rspec spec/car_spec.rb --format progress
+
+$ rspec spec/car_spec.rb --format documentation
+$ rspec spec/car_spec.rb -f d // 上と同じ
+
+$ rspec spec/car_spec.rb --order random
+
+$ rspec spec/car_spec.rb --profile(-p)
+
+// Immediate termination upon failure
+$ rspec spec/car_spec.rb --fail-fast
+
+// Only specified test
+$ rspec spec/car_spec.rb:7
