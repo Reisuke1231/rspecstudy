@@ -1,5 +1,4 @@
---no-color
---format progress
+--format documentation
 --no-profile
 --no-fail-fast
 --order defined
